@@ -14,4 +14,6 @@ COPY hosts /etc/hosts
 
 EXPOSE 53 53/udp
 EXPOSE 67 67/udp
-ENTRYPOINT ["dnsmasq", "-k"]
+#ENTRYPOINT ["dnsmasq", "-k -d --log-async=25"]
+#ENTRYPOINT ["dnsmasq", "-k", "-q", "--log-async=25", "--log-dhcp"]
+ENTRYPOINT ["dnsmasq", "-d"]
