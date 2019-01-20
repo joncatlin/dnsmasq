@@ -1,2 +1,6 @@
 127.0.0.1      localhost
 192.168.15.20  nas01
+192.168.15.100 pve01.dest.internal pve01
+192.168.15.101 pve02.dest.internal pve02
+192.168.15.102 pve03.dest.internal pve03
+

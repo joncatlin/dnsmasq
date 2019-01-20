@@ -5,7 +5,8 @@ RUN apk update \
 	&& apk --no-cache add dnsmasq
 
 # copy the configuration and the hosts file
-COPY dnsmasq.conf /etc/dnsmasq.conf
+COPY dnsmasq-bond0.conf /etc/dnsmasq-bond0.conf
+COPY dnsmasq-eth0.conf /etc/dnsmasq-eth0.conf
 COPY hosts /etc/hosts
 
 #configure dnsmasq
