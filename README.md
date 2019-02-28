@@ -1,4 +1,5 @@
 # Running the continaer
+
 $ sudo docker run -d --net host --name dnsmasq --restart always --privileged joncatlin/dnsmasq
 
 The container seems to need --privileged, if not it throws the following 'error ARP-cache injection failed: Operation not permitted'.

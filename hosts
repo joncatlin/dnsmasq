@@ -1,6 +1,17 @@
 127.0.0.1      localhost
+
+# Synology box
 192.168.15.20  nas01
-192.168.15.100 pve01.dest.internal pve01
-192.168.15.101 pve02.dest.internal pve02
-192.168.15.102 pve03.dest.internal pve03
+
+# PVE hosts
+192.168.15.11 pve01.dest.internal pve01
+192.168.15.12 pve02.dest.internal pve02
+192.168.15.13 pve03.dest.internal pve03
+192.168.15.14 pve04.dest.internal pve03
+
+# Switch
+192.168.15.3 switch.dest.internal switch
+
+# Gateway
+192.168.15.2 gateway.dest.internal gateway
 
