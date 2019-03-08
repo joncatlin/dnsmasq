@@ -15,3 +15,16 @@
 # Gateway
 192.168.15.2 gateway.dest.internal gateway
 
+# Docker boxes
+192.168.15.31 docker01.dest.internal docker01
+192.168.15.32 docker02.dest.internal docker02
+192.168.15.33 docker03.dest.internal docker03
+192.168.15.34 docker04.dest.internal docker04
+192.168.15.35 docker05.dest.internal docker05
+192.168.15.36 docker06.dest.internal docker06
+192.168.15.37 docker07.dest.internal docker07
+192.168.15.38 docker08.dest.internal docker08
+192.168.15.39 docker09.dest.internal docker09
+
+
+
