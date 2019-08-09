@@ -26,5 +26,14 @@
 192.168.15.38 docker08.dest.internal docker08
 192.168.15.39 docker09.dest.internal docker09
 
+# Kubernetes boxes
+192.168.15.41 k8-01.dest.internal k8-01
+192.168.15.42 k8-01.dest.internal k8-02
+192.168.15.43 k8-01.dest.internal k8-03
+192.168.15.44 k8-01.dest.internal k8-04
+192.168.15.45 k8-01.dest.internal k8-05
+
+
+
 
 
