@@ -9,10 +9,10 @@
 192.168.15.13 pve03.dest.internal pve03
 192.168.15.14 pve04.dest.internal pve03
 
-192.168.15.20 pve10.dest.internal pve10
-192.168.15.21 pve11.dest.internal pve11
-192.168.15.22 pve12.dest.internal pve12
-192.168.15.23 pve13.dest.internal pve13
+192.168.15.16 pve10.dest.internal pve10
+192.168.15.17 pve11.dest.internal pve11
+192.168.15.18 pve12.dest.internal pve12
+192.168.15.19 pve13.dest.internal pve13
 
 # Switch
 192.168.15.3 switch.dest.internal switch
